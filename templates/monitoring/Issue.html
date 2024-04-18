@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container">
+    <h1>Issues</h1>
+    <p>Here are the current issues:</p>
+
+    <ul>
+      {% for issue in issues %}
+        <li>
+          <h2>{{ issue.title }}</h2>
+          <p>{{ issue.description }}</p>
+          <p>Reported at: {{ issue.timestamp }}</p>
+        </li>
+      {% empty %}
+        <li>No issues reported at this time.</li>
+      {% endfor %}
+    </ul>
+
+  </div>
+{% endblock %}
