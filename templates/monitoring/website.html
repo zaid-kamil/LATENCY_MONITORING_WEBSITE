@@ -1,21 +1,15 @@
 {% extends 'base/master.html' %}
+{% load crispy_forms_tags %}
 
 {% block content %}
   <div class="container">
     <h1>Website Monitoring</h1>
     <p>Here are the websites currently being monitored:</p>
-
-    <ul>
-      {% for website in websites %}
-        <li>
-          <h2>{{ website.name }}</h2>
-          <p>URL: {{ website.url }}</p>
-          <!-- You can add more details about each website here. -->
-        </li>
-      {% empty %}
-        <li>No websites are currently being monitored.</li>
-      {% endfor %}
-    </ul>
-
-  </div>
+      <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    
+    </div>
 {% endblock %}
