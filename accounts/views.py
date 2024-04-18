@@ -7,7 +7,7 @@ from django.contrib.auth.decorators import login_required
 from .models import Profile
 
 # Create your views here.
-def user_login(request):
+def login(request):
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -19,7 +19,7 @@ def user_login(request):
             messages.error(request, 'Invalid user or password')
             return render(request, 'login.html')
         
-def user_register(request):
+def register(request):
     if request.method == "POST":
         username = request.POST['username']
         email = request.POST['email']

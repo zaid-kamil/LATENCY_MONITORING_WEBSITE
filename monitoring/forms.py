@@ -4,7 +4,7 @@ from django import forms
 class FeedbackForm(forms.ModelForm):
     class Meta:
         model = Feedback
-        fields = '__all__'
+        fields = ['website', 'message', ]
 
 
 class IssueForm(forms.ModelForm):

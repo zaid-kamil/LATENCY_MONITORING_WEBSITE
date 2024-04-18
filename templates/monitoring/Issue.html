@@ -1,21 +1,15 @@
-{% extends 'base.html' %}
+{% extends 'base/master.html' %}
 
 {% block content %}
-  <div class="container">
-    <h1>Issues</h1>
-    <p>Here are the current issues:</p>
+<div class="container">
+  <h1>issue</h1>
+  <p>We value your issue. Please fill out the form below:</p>
 
-    <ul>
-      {% for issue in issues %}
-        <li>
-          <h2>{{ issue.title }}</h2>
-          <p>{{ issue.description }}</p>
-          <p>Reported at: {{ issue.timestamp }}</p>
-        </li>
-      {% empty %}
-        <li>No issues reported at this time.</li>
-      {% endfor %}
-    </ul>
+  <form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 
-  </div>
+</div>
 {% endblock %}
