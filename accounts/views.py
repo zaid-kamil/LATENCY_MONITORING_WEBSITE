@@ -11,12 +11,16 @@ def login_view(request):
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
-        user = authenticate(request, username=username, password=password)
-        if user is not None:
-            login(request, user)
-            return redirect('home')
+        if not username or not password:
+            messages.error(request, 'Please fill all fields')
         else:
-            messages.error(request, 'Invalid user or password')
+            user = authenticate(request, username=username, password=password)
+            if user is not None:
+                login(request, user)
+                messages.success(request, 'Login successful')
+                return redirect('home')
+            else:
+                messages.error(request, 'Invalid user or password')
     return render(request, 'accounts/login.html')
         
 def register_view(request):
@@ -43,6 +47,7 @@ def register_view(request):
 
 def logout_view(request):
     logout(request)
+    messages.success(request, 'You have been logged out')
     return redirect('home')
 
 @login_required

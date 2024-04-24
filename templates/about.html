@@ -1,13 +1,44 @@
-{% extends 'layout/base.html' %}
+{% extends 'base/master.html' %}
 
 {% block content %}
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>About our website</h2>
-                </div>
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="/static/img/about.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content">
+                <h3>Welcome to our Latency Monitoring Website !</h3>
+                <p class="fst-italic">
+                    Our mission is to provide a reliable and user-friendly platform for monitoring the latency of your
+                    websites.
+                    We understand the importance of website performance for your business. Slow websites can lead to
+                    user
+                    dissatisfaction, decreased user engagement, and lost business opportunities.
+                </p>
+                <ul>
+                    <li><i class="bi bi-check-circle"></i> - Our Latency Monitoring Website is designed to be reliable
+                        and
+                        user-friendly, making it easy for you to monitor the latency of your websites.
+                    </li>
+                    <li><i class="bi bi-check-circle"></i>Our platform continuously checks the latency of your websites
+                        at regular
+                        intervals.</li>
+                    <li><i class="bi bi-check-circle"></i> We provide detailed latency reports, which can help you
+                        identify
+                        patterns and trends, and make informed decisions about your website infrastructure.</li>
+                </ul>
+                <p>
+                    latency monitoring website ensures optimal user experience by identifying and addressing latency
+                    issues
+                    promptly. It provides valuable insights for performance optimization, proactive problem-solving, and
+                    data-driven decision-making.
+                </p>
             </div>
         </div>
-    </section>
+
+    </div>
+</section><!-- End About Section -->
 {% endblock content %}

@@ -42,6 +42,8 @@ class Issue(models.Model):
 
     def __str__(self):
         return f'Issue for {self.website.url} at {self.timestamp}: {self.message} - Status: {self.status}'
+    
+
 
 
 
