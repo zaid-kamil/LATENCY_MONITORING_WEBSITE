@@ -4,8 +4,18 @@ from .models import *
 
 # Create your views here.
 def dashboard(request):
-    # You might fetch some data here...
-    return render(request, 'monitoring/dashboard.html')
+
+    if request.method == 'POST':
+        form = LatencyForm(request.POST)
+        if form.is_valid():
+            # Process the data in form.cleaned_data
+            # (For example, you could update a model or send an email)
+            pass
+    else:
+        form = LatencyForm()
+
+    return render(request, 'monitoring/dashboard.html',{'form': form})
+   
 
 def notification(request):
     # You might fetch some data here...

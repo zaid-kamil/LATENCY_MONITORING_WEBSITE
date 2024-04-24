@@ -1,22 +1,22 @@
 {% extends 'base/master.html' %}
 
 {% block content %}
-  <h2>Dashboard</h2>
+<h2 class="text-center">Dashboard</h2>
   <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Website Latency</h3>
-        <form method="post">
+    <div class="row justify-content-center">
+     <div class="col-md-6">
+       <h3 class="text-center">Website Latency</h3>
+        <form method="post" class="d-flex flex-column align-items-center">
           {% csrf_token %}
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="website">Website:</label>
             {{ form.website }}
           </div>
-          <div class="form-group">
+          <div class="form-group mb-3">
             <label for="latency">Latency:</label>
             {{ form.latency }}
           </div>
-          <button type="submit" class="btn btn-primary">Update</button>
+          <button type="submit" class="btn btn-primary ">Update</button>
         </form>
       </div>
     </div>

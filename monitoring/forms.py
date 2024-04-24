@@ -27,3 +27,6 @@ class NotificationForm(forms.ModelForm):
         model = Notification
         fields = '__all__' 
         
+class LatencyForm(forms.Form):
+    website = forms.CharField(label='Website', max_length=100)
+    latency = forms.IntegerField(label='Latency')
