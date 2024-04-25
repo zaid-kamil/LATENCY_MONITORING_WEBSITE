@@ -1,25 +1,88 @@
 {% extends 'base/master.html' %}
 
 {% block content %}
-<h2 class="text-center">Dashboard</h2>
-  <div class="container">
-    <div class="row justify-content-center">
-     <div class="col-md-6">
-       <h3 class="text-center">Website Latency</h3>
-        <form method="post" class="d-flex flex-column align-items-center">
-          {% csrf_token %}
-          <div class="form-group mb-3">
-            <label for="website">Website:</label>
-            {{ form.website }}
-          </div>
-          <div class="form-group mb-3">
-            <label for="latency">Latency:</label>
-            {{ form.latency }}
-          </div>
-          <button type="submit" class="btn btn-primary ">Update</button>
-        </form>
+<h2 class="text-center mb-5">My Dashboard</h2>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h3>Monitored websites</h3>
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Website</th>
+              <th scope="col">Latency</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for website in websites %}
+            <tr>
+              <td>{{ website.url }}</td>
+              <td>{{ website.check_frequency }}</td>
+              <td>
+                <a href="{% url 'website_view' website.id %}" class="btn ">
+                  <i class="fas fa-eye fa-fw"></i>
+                </a>
+                <a href="{% url 'website_edit' website.id %}" class="btn ">
+                  <i class="fas fa-edit fa-fw"></i>
+                </a>
+                <a href="{% url 'website_delete' website.id %}" class="btn">
+                  <i class="fas fa-trash fa-fw text-danger"></i>
+                </a>
+              </td>
+            </tr>
+            {% endfor %}
+            <!-- add new -->
+            <tr>
+              <td colspan="2">
+                Add new website to monitor
+              </td>
+              <td class="text-end">
+                <a href="{% url 'website' %}" class="btn btn-primary">
+                  <i class="fas fa-plus fa-fw"></i> Add new
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h3>Issues</h3>
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Website</th>
+              <th scope="col">Latency</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for website in websites %}
+            <tr>
+              <td>{{ website.url }}</td>
+              <td>{{ website.check_frequency }}</td>
+              <td>
+                <a href="{% url 'website_view' website.id %}" class="btn ">
+                  <i class="fas fa-eye fa-fw"></i>
+                </a>
+                <a href="{% url 'website_edit' website.id %}" class="btn ">
+                  <i class="fas fa-edit fa-fw"></i>
+                </a>
+                <a href="{% url 'website_delete' website.id %}" class="btn">
+                  <i class="fas fa-trash fa-fw text-danger"></i>
+                </a>
+              </td>
+            </tr>
+            {% endfor %}
+            <!-- add new -->
+           
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
+</div>
 {% endblock %}
-
