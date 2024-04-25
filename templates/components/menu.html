@@ -14,8 +14,6 @@
                 {% if user.is_authenticated %}
                     
                 <li><a class="nav-link scrollto" href="{% url 'dashboard' %}">Dashboard</a></li>
-                <li><a class="nav-link scrollto " href="{% url 'website' %}">Add Website</a></li>
-                <li><a class="nav-link scrollto" href="{% url 'issue' %}">Issue</a></li>
                 <li><a class="nav-link scrollto" href="{% url 'feedback' %}">Feedback</a></li>
 
                 {% endif %}

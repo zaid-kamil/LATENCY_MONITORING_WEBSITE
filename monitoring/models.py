@@ -7,6 +7,14 @@ class Website(models.Model):
 
     def __str__(self):
         return self.url
+    
+class LatencyRecord(models.Model):
+    website = models.ForeignKey(Website, on_delete=models.CASCADE)
+    latency = models.FloatField()
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'{self.website.url} at {self.timestamp}: {self.latency} ms'
 
 class Measurement(models.Model):
     website = models.ForeignKey(Website, on_delete=models.CASCADE)
@@ -43,6 +51,7 @@ class Issue(models.Model):
     def __str__(self):
         return f'Issue for {self.website.url} at {self.timestamp}: {self.message} - Status: {self.status}'
     
+
 
 
 

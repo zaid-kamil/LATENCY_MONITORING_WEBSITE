@@ -2,6 +2,7 @@ from django.shortcuts import render
 from .forms import *
 from .models import *
 from django.contrib import messages
+from django.db.models import Avg, Max, Min
 from django.shortcuts import redirect
 # Create your views here.
 def dashboard(request):
@@ -32,6 +33,7 @@ def view_website(request, pk):
     context = {'website': website}
     return render(request, 'monitoring/view_website.html', context)
 
+
 def edit_website(request, pk):
     website = Website.objects.get(id=pk)
     form = WebsiteForm(instance=website)
@@ -50,6 +52,20 @@ def delete_website(request, pk):
     messages.success(request, 'Website deleted successfully')
     return redirect('dashboard')
 
+def latency_report(request, pk):
+    website = Website.objects.get(id=pk)
+    latency_records = LatencyRecord.objects.filter(website=website)
+    avg_latency = latency_records.aggregate(Avg('latency'))['latency__avg']
+    max_latency = latency_records.aggregate(Max('latency'))['latency__max']
+    min_latency = latency_records.aggregate(Min('latency'))['latency__min']
+    return render(request, 'monitoring/latency_report.html', {
+        'website': website,
+        'avg_latency': avg_latency,
+        'max_latency': max_latency,
+        'min_latency': min_latency,
+    })
+
+
 def feedback(request):
     form = FeedbackForm() 
     if request.method == 'POST':
@@ -59,6 +75,7 @@ def feedback(request):
              model.user = request.user
     context = {'form': form}
     return render(request, 'monitoring/feedback.html', context)
+
 
 def Issue(request):
     form = IssueForm()

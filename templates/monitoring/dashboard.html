@@ -11,7 +11,7 @@
           <thead>
             <tr>
               <th scope="col">Website</th>
-              <th scope="col">Latency</th>
+              <th scope="col">Frequency in minutes</th>
               <th scope="col">Actions</th>
             </tr>
           </thead>
@@ -49,36 +49,40 @@
       </div>
     </div>
     <div class="col-md-6">
+
       <h3>Issues</h3>
       <div class="table-responsive">
         <table class="table table-hover">
           <thead>
             <tr>
               <th scope="col">Website</th>
-              <th scope="col">Latency</th>
+              <th scope="col">Issue</th>
               <th scope="col">Actions</th>
             </tr>
           </thead>
           <tbody>
-            {% for website in websites %}
+            {% for issue in issues %}
             <tr>
-              <td>{{ website.url }}</td>
-              <td>{{ website.check_frequency }}</td>
+              <td>{{ issue.website.url }}</td>
+              <td>{{ issue.issue }}</td>
               <td>
-                <a href="{% url 'website_view' website.id %}" class="btn ">
+                <a href="{% url 'issue_view' issue.id %}" class="btn ">
                   <i class="fas fa-eye fa-fw"></i>
                 </a>
-                <a href="{% url 'website_edit' website.id %}" class="btn ">
-                  <i class="fas fa-edit fa-fw"></i>
-                </a>
-                <a href="{% url 'website_delete' website.id %}" class="btn">
-                  <i class="fas fa-trash fa-fw text-danger"></i>
+           </td>
+           </tr>
+            {% endfor %}
+            <!-- add new -->
+            <tr>
+              <td colspan="2">
+                Add new issue
+              </td>
+              <td class="text-end">
+                <a href="{% url 'issue' %}" class="btn btn-primary">
+                  <i class="fas fa-plus fa-fw"></i> Add new
                 </a>
               </td>
             </tr>
-            {% endfor %}
-            <!-- add new -->
-           
           </tbody>
         </table>
       </div>
@@ -86,3 +90,5 @@
   </div>
 </div>
 {% endblock %}
+
+

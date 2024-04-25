@@ -1,0 +1,8 @@
+{% extends 'base/master.html' %}
+
+{% block content %}
+  <h2>Latency Report for {{ website.url }}</h2>
+  <p>Average Latency: {{ avg_latency }}</p>
+  <p>Maximum Latency: {{ max_latency }}</p>
+  <p>Minimum Latency: {{ min_latency }}</p>
+{% endblock %}
