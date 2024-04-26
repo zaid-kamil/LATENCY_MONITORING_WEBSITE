@@ -2,17 +2,186 @@
 {% load static %}
 
 {% block title %}
-
+View Website
 {% endblock title %}
 
 {% block css %}
-
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/chart.js" rel="stylesheet">
 {% endblock css %}
 
 {% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+            <canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
+            <canvas id="myChart3" style="width:100%;max-width:600px"></canvas>
+        </div>
+        <div class="col-md-6">
+            <h2>{{ website.url }}</h2>
+            <table class="table">
+                <!-- Your table data here -->
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Latency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for record in latency_records %}
+                    <tr>
+                        <td>{{ record.timestamp }}</td>
+                        <td>{{ record.latency }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="2">No records found</td>
+                    </tr>
+                    {% endfor %} 
+                </tbody>
+            </table>
+            <button id="runButton" class="btn btn-primary">Run</button>
+            <table class="table">
+                <!-- Your table data here -->
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Latency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for record in latency_records %}
+                    <tr>
+                        <td>{{ record.timestamp }}</td>
+                        <td>{{ record.latency }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="2">No records found</td>
+                    </tr>
+                    {% endfor %} 
+                </tbody>
+            </table>
+            <button id="runButton" class="btn btn-primary">Run</button>
+            <table class="table">
+                <!-- Your table data here -->
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Latency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for record in latency_records %}
+                    <tr>
+                        <td>{{ record.timestamp }}</td>
+                        <td>{{ record.latency }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="2">No records found</td>
+                    </tr>
+                    {% endfor %} 
+                </tbody>
+            </table>
+            <button id="runButton" class="btn btn-primary">Run</button> 
+    </div>
+ </div>
+</div>
 
+        
 {% endblock content %}
 
 {% block js %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script>
+const websites = ["Website 1", "Website 2", "Website 3", "Website 4", "Website 5"];
+const latencies = [120, 200, 150, 80, 60];
+const barColors = ["red", "green","blue","orange","brown"];
+new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: websites,
+    datasets: [{
+      label: "Latency (ms)",
+      backgroundColor: barColors,
+      data: latencies,
+    }]
+  },
+  options: {
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    },
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Latency Monitoring"
+    }
+  }
 
+});   
+const xyValues = [
+  {x:50, y:7},
+  {x:60, y:8},
+  {x:70, y:8},
+  {x:80, y:9},
+];
+
+new Chart("myChart2", {
+  type: "scatter",
+  data: {
+    datasets: [{
+      pointBackgroundColor: "rgb(0,123,255)",
+      data: xyValues,
+    }]
+  },
+  options: {
+    scales: {
+      xAxes: [{
+        type: 'linear',
+        position: 'bottom'
+      }]
+    },
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Latency Monitoring"
+    }
+  }
+});
+document.getElementById("runButton").addEventListener("click", function() {
+    // Your code to run when the button is clicked
+});
+const timeValues = ["00:00", "01:00", "02:00", "03:00", "04:00", "05:00"]; // Time values
+const latencyValues = [120, 200, 150, 180, 160, 170]; // Latency values
+
+new Chart("myChart3", {
+  type: "line",
+  data: {
+    labels: timeValues,
+    datasets: [{
+        label: 'Latency (ms)',
+      data: latencyValues,
+      fill: false,
+      borderColor: "rgb(75, 192, 192)",
+      lineTension: 0.1
+    }]
+  },
+  options: {
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+    }
+  }]
+    }
+    }
+});
+</script>
 {% endblock js %}
+
