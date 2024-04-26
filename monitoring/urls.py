@@ -10,7 +10,6 @@ urlpatterns = [
     path('website/<int:pk>/view', views.view_website, name='website_view'),
     path('website/<int:pk>/edit/', views.edit_website, name='website_edit'),
     path('website/<int:pk>/delete/', views.delete_website, name='website_delete'),
-    path('website/<int:pk>/report/', views.latency_report, name='latency_report'),
 
     path('about/', views.about, name='about'),
     path('services/', views.services, name='services'),
