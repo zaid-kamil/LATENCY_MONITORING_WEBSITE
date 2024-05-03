@@ -2,15 +2,14 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-<div class="container">
-  <h1>issue</h1>
-  <p>We value your issue. Please fill out the form below:</p>
+  <div class="container">
+    <h1>issue</h1>
+    <p>We value your issue. Please fill out the form below:</p>
+      <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 
-  <form method="post">
-    {% csrf_token %}
-    {{ form|crispy }}
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-
-</div>
+    </div>
 {% endblock %}

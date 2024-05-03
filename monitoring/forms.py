@@ -2,9 +2,10 @@ from .models import Feedback, Measurement, Notification, Website, Issue
 from django import forms
 
 class FeedbackForm(forms.ModelForm):
+    input_name = forms.CharField(max_length=100)  # Add this line
     class Meta:
         model = Feedback
-        fields = ['website', 'message', ]
+        fields = ['input_name','website', 'message', ]
 
 
 class IssueForm(forms.ModelForm):

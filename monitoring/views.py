@@ -61,14 +61,19 @@ def feedback(request):
     context = {'form': form}
     return render(request, 'monitoring/feedback.html', context)
 
+def view_feedback(request):
+    feedback_list = Feedback.objects.all()
+    return render(request, 'monitoring/view_feedback.html', {'feedback_list': feedback_list})
 
-def Issue(request):
+
+def create_new_issue(request):
     form = IssueForm()
     if request.method == 'POST':
         form = IssueForm(request.POST)
         if form.is_valid():
             model = form.save(commit=False)
             model.user = request.user
+            model.save()
     context = {'form': form}
     return render(request, 'monitoring/Issue.html', context)
 
@@ -78,5 +83,16 @@ def about(request):
 def services(request):
     return render(request, 'services.html')
 
-def contact(request):
+def contact_view(request):
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        subject = request.POST.get('subject')
+        message = request.POST.get('message')
+        if name and email and subject and message:
+            contact = contact(name=name, email=email, subject=subject, message=message)
+            contact.save()
+            messages.success(request, 'Message sent successfully')
+        else:
+            messages.error(request, 'Please fill all the fields')
     return render(request, 'contact.html')

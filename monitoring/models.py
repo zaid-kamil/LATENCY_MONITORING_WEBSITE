@@ -8,14 +8,6 @@ class Website(models.Model):
     def __str__(self):
         return self.url
     
-class LatencyRecord(models.Model):
-    website = models.ForeignKey(Website, on_delete=models.CASCADE)
-    latency = models.FloatField()
-    timestamp = models.DateTimeField(auto_now_add=True)
-
-    def __str__(self):
-        return f'{self.website.url} at {self.timestamp}: {self.latency} ms'
-
 class Measurement(models.Model):
     website = models.ForeignKey(Website, on_delete=models.CASCADE)
     timestamp = models.DateTimeField(auto_now_add=True)
@@ -35,7 +27,7 @@ class Notification(models.Model):
 class Feedback(models.Model):
     website = models.ForeignKey(Website, on_delete=models.CASCADE)
     timestamp = models.DateTimeField(auto_now_add=True)
-    user = models.ForeignKey('auth.User', on_delete=models.CASCADE, default=1)
+    user = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     message = models.TextField()
 
     def __str__(self):
@@ -45,13 +37,20 @@ class Issue(models.Model):
     website = models.ForeignKey(Website, on_delete=models.CASCADE)
     timestamp = models.DateTimeField(auto_now_add=True)
     message = models.TextField()
-    user = models.ForeignKey('auth.User', on_delete=models.CASCADE, default=1)
+    user = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     status = models.CharField(max_length=20, choices=[('open', 'Open'), ('closed', 'Closed')], default='open')
 
     def __str__(self):
-        return f'Issue for {self.website.url} at {self.timestamp}: {self.message} - Status: {self.status}'
+        return f'Issue for {self.website.url} at {self.timestamp}: {self.message}'
     
+class contact(models.Model):
+    name = models.CharField(max_length=100)
+    email = models.EmailField()
+    subject = models.CharField(max_length=100)
+    message = models.TextField()
 
+    def __str__(self):
+        return self.name
 
 
 
