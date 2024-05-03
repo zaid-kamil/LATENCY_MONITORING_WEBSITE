@@ -51,13 +51,14 @@ def delete_website(request, pk):
     messages.success(request, 'Website deleted successfully')
     return redirect('dashboard')
 
-def feedback(request):
+def create_new_feedback(request):
     form = FeedbackForm() 
     if request.method == 'POST':
         form = FeedbackForm(request.POST)
         if form.is_valid():
              model = form.save(commit=False)
              model.user = request.user
+             model.save()
     context = {'form': form}
     return render(request, 'monitoring/feedback.html', context)
 
@@ -96,3 +97,5 @@ def contact_view(request):
         else:
             messages.error(request, 'Please fill all the fields')
     return render(request, 'contact.html')
+
+ 
