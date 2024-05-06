@@ -64,6 +64,17 @@
             <tr>
               <td>{{ issue.website.url }}</td>
               <td>{{ issue.issue }}</td>
+              <td>
+                <a href="{% url 'issue_view' issue.id %}" class="btn ">
+                  <i class="fas fa-eye fa-fw"></i>
+                </a>
+                <a href="{% url 'issue_edit' issue.id %}" class="btn ">
+                  <i class="fas fa-edit fa-fw"></i>
+                </a>
+                <a href="{% url 'issue_delete' issue.id %}" class="btn">
+                  <i class="fas fa-trash fa-fw text-danger"></i>
+                </a>  
+              </td>
            </tr>
             {% endfor %}
             <!-- add new -->

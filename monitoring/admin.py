@@ -8,3 +8,4 @@ admin.site.register(Notification)
 admin.site.register(Feedback)
 admin.site.register(Issue)
 admin.site.register(contact)
+

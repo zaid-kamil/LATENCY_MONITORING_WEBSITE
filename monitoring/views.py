@@ -60,6 +60,7 @@ def create_new_feedback(request):
              model.user = request.user
              model.save()
     context = {'form': form}
+    messages.success(request, 'Feedback added successfully')
     return render(request, 'monitoring/feedback.html', context)
 
 def view_feedback(request):
@@ -75,6 +76,8 @@ def create_new_issue(request):
             model = form.save(commit=False)
             model.user = request.user
             model.save()
+            messages.success(request, 'Issue added successfully')
+            return redirect('dashboard')
     context = {'form': form}
     return render(request, 'monitoring/Issue.html', context)
 
@@ -91,11 +94,14 @@ def contact_view(request):
         subject = request.POST.get('subject')
         message = request.POST.get('message')
         if name and email and subject and message:
-            contact = contact(name=name, email=email, subject=subject, message=message)
-            contact.save()
+            c = contact(name=name, email=email, subject=subject, message=message)
+            c.save()
             messages.success(request, 'Message sent successfully')
         else:
             messages.error(request, 'Please fill all the fields')
     return render(request, 'contact.html')
+
+
+
 
  

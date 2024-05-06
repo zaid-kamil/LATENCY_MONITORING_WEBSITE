@@ -11,7 +11,7 @@ class FeedbackForm(forms.ModelForm):
 class IssueForm(forms.ModelForm):
     class Meta:
         model = Issue
-        fields = ['message', 'user', 'status']
+        fields = ['website','message', 'user', 'status']
 
 class WebsiteForm(forms.ModelForm):
     class Meta:
@@ -26,5 +26,4 @@ class Measurement:
 class NotificationForm(forms.ModelForm):
     class Meta:
         model = Notification
-        fields = '__all__' 
-        
+        fields = '__all__'       
