@@ -101,6 +101,16 @@ def contact_view(request):
             messages.error(request, 'Please fill all the fields')
     return render(request, 'contact.html')
 
+def subscribe(request):
+    if request.method == 'POST':
+        email = request.POST.get('email')
+        if email:
+            s = Subscribe(email=email)
+            s.save()
+            messages.success(request, 'Subscribed successfully')
+        else:
+            messages.error(request, 'Please fill all the fields')
+    return render(request, 'subscribe.html')
 
 
 
