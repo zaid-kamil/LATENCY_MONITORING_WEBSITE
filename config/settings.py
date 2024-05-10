@@ -145,3 +145,16 @@ CELERY_BROKER_URL = 'redis://localhost:6379/0'
 
 # celery timezone
 CELERY_TIMEZONE = 'Asia/Kolkata'
+
+
+# email configuration
+import os
+import dotenv
+
+dotenv.load_dotenv()
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.digipodium.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')

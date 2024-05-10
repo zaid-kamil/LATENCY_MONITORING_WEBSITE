@@ -3,16 +3,16 @@ from .forms import *
 from .models import *
 from django.contrib import messages
 from django.shortcuts import redirect
+from django.contrib.auth.decorators import login_required
+from .tasks import check_status
 # Create your views here.
 def dashboard(request):
     websites = Website.objects.filter(user=request.user)
 
     return render(request, 'monitoring/dashboard.html', {'websites': websites})
-   
-
+ 
 def notification(request):
-    # You might fetch some data here...
-    return render(request, 'monitoring/notification.html')
+   return render(request, 'monitoring/notification.html')
 
 def website(request):
    form = WebsiteForm()
@@ -59,8 +59,9 @@ def create_new_feedback(request):
              model = form.save(commit=False)
              model.user = request.user
              model.save()
+        messages.success(request, 'Feedback added successfully')
     context = {'form': form}
-    messages.success(request, 'Feedback added successfully')
+    
     return render(request, 'monitoring/feedback.html', context)
 
 def view_feedback(request):
@@ -101,16 +102,24 @@ def contact_view(request):
             messages.error(request, 'Please fill all the fields')
     return render(request, 'contact.html')
 
-def subscribe(request):
-    if request.method == 'POST':
+def subscriber_view(request):
+   if request.method == 'POST':
         email = request.POST.get('email')
-        if email:
-            s = Subscribe(email=email)
+        try:
+            Subscriber.objects.get(email=email)
+            messages.error(request, 'Email already exists')
+        except Subscriber.DoesNotExist:
+            s = Subscriber(email=email)
             s.save()
             messages.success(request, 'Subscribed successfully')
-        else:
-            messages.error(request, 'Please fill all the fields')
-    return render(request, 'subscribe.html')
+   return render(request, 'index.html')
+
+# run task when the view is called
+def run_task(request):
+    check_status.delay()
+    return redirect('dashboard')
+        
+
 
 
 

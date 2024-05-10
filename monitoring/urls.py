@@ -14,5 +14,6 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('services/', views.services, name='services'),
     path('contact/', views.contact_view, name='contact'),
-    path('subscribe/', views.subscribe, name='subscribe'),
+    path('subscriber/', views.subscriber_view, name='subscriber'), # new subscribe url
+    path('run/task/', views.run_task, name='run_task'), # new run task url
     ]

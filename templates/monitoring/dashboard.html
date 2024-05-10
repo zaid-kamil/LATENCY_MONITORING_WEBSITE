@@ -4,6 +4,9 @@
 <h2 class="text-center mb-5">My Dashboard</h2>
 <div class="container">
   <div class="row justify-content-center">
+    <a href="{% url 'run_task' %}" class="btn btn-sm btn-danger">Run task</a>
+  </div>
+  <div class="row justify-content-center">
     <div class="col-md-6">
       <h3>Monitored websites</h3>
       <div class="table-responsive">
@@ -73,9 +76,9 @@
                 </a>
                 <a href="{% url 'issue_delete' issue.id %}" class="btn">
                   <i class="fas fa-trash fa-fw text-danger"></i>
-                </a>  
+                </a>
               </td>
-           </tr>
+            </tr>
             {% endfor %}
             <!-- add new -->
             <tr>
@@ -95,8 +98,6 @@
   </div>
 </div>
 
-               
-    
+
+
 {% endblock %}
-
-

@@ -14,3 +14,7 @@ class Profile(models.Model):
     gender = models.CharField(max_length=10, choices=gender_choices)
     bio = models.TextField()
     user = models.OneToOneField(User, on_delete=models.CASCADE, default=1)
+
+
+
+    

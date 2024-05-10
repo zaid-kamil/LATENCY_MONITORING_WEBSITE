@@ -11,7 +11,10 @@ class Website(models.Model):
 class Measurement(models.Model):
     website = models.ForeignKey(Website, on_delete=models.CASCADE)
     timestamp = models.DateTimeField(auto_now_add=True)
-    latency = models.FloatField()
+    latency = models.FloatField(default=0.0)
+    status_code = models.IntegerField(default=200)
+    error = models.TextField(null=True)
+
 
     def __str__(self):
         return f'{self.website.url} at {self.timestamp}: {self.latency} ms'
@@ -52,8 +55,8 @@ class contact(models.Model):
     def __str__(self):
         return self.name
 
-class Subscribe(models.Model):
-    email = models.EmailField()
+class Subscriber(models.Model):
+    email = models.EmailField(unique=True)
 
     def __str__(self):
         return self.email

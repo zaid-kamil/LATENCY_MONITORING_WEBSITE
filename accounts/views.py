@@ -38,7 +38,7 @@ def forgot_password(request):
                 user = User.objects.get(email=email)
                 uid = urlsafe_base64_encode(force_bytes(user.pk))
                 token = default_token_generator.make_token(user)
-                message = render_to_string('accounts/forgot_password.html', {
+                message = render_to_string('accounts/login.html', {
                     'user': user,
                     'uid': uid,
                     'token': token
@@ -48,6 +48,7 @@ def forgot_password(request):
             else:
                 messages.error(request, 'Email does not exist')
     return render(request, 'accounts/forgot_password.html')
+
 
 def register_view(request):
     if request.method == "POST":
@@ -98,7 +99,3 @@ def create_profile(request):
 def view_profile(request):
     profile = Profile.objects.filter(user=request.user).first()
     return render(request, 'accounts/view_profile.html', {'profile': profile})   
-
-
-
-  

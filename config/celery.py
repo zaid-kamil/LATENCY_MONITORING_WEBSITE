@@ -19,3 +19,12 @@ def debug_task(self):
     print(f'Request: {self.request!r}')
 
 # Path: config/__init__.py
+
+# activate redis 
+# sudo service redis-server start
+
+# run celery command
+# celery -A config beat -l info
+
+
+    

@@ -2,9 +2,14 @@ import time
 import requests
 from datetime import datetime
 from ping3 import ping
-import requests
+import re
 
-from ping3 import ping
+def sanitize_url(url):
+    # get only domain name  
+    url = re.sub(r'^https?://', '', url)
+    url = re.sub(r'^www\.', '', url)
+    url = re.sub(r'/$', '', url)
+    return url
 
 def check_website_status(url):
     try:
@@ -15,6 +20,7 @@ def check_website_status(url):
         return None
 
 def ping_website(url, timeout=4):
+    domain = sanitize_url(url)
     results = {
         'url': url,
         'ping_time': None,
@@ -23,7 +29,7 @@ def ping_website(url, timeout=4):
         'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     }
     try:
-        ping_time = ping(url, timeout=timeout)
+        ping_time = ping(domain, timeout=timeout)
         status_code = check_website_status(url)
         if ping_time is not None:
             results['ping_time'] = ping_time
@@ -36,6 +42,3 @@ def ping_website(url, timeout=4):
     except Exception as e:
         print(f'Error: {e}')
         return results
-
-    
-
