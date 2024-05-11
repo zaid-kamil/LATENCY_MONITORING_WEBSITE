@@ -3,22 +3,14 @@ from celery import shared_task
 from .execution import check_website_status, ping_website
 from datetime import datetime
 from django.contrib.auth.models import User
+from config.celery import app
 
-# run celery beat
-from celery.schedules import crontab
-from celery import Celery
-
-app = Celery('config', broker='redis://localhost:6379/0')
-
-@app.on_after_configure.connect
-def setup_periodic_tasks(sender, **kwargs):
-    sender.add_periodic_task(10.0, check_status.s(), name='add every 10')
-
-
-
-@shared_task
-def check_status():
+@shared_task(bind=True, name='check_status')
+def check_status(*args):
+    print('Task started', args)
     websites = Website.objects.all()
+    for website in websites:
+        print(f'Checking status of {website.url}')
     for website in websites:
         results = ping_website(website.url)
         Measurement.objects.create(
@@ -43,3 +35,7 @@ def check_status():
                 )
     return 'Task completed'
 
+
+@app.task(bind=True, name='print_hello')
+def print_hello():
+    print('Hello world')
