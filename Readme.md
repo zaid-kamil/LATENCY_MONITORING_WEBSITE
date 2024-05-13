@@ -7,6 +7,10 @@ conda install -c conda-forge gevent -y
 ```
 redis-server
 ```
+### run the django server
+```
+python manage.py runserver
+```
 
 ### start celery worker
 ```
@@ -18,7 +22,3 @@ celery -A config worker --pool=solo -l INFO
 celery -A config beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
 ```
 
-### run the django server
-```
-python manage.py runserver
-```

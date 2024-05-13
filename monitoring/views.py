@@ -183,10 +183,10 @@ def schedule_website_monitor(request):
             PeriodicTask.objects.create(
             interval = interval,
             name = f'{request.user.username}_{website.url.replace(".", "_")}',
-            task = check_status,
+            task = "monitoring.tasks.check_status",
             args = json.dumps([website.url, request.user.username, website.id]))
             messages.success(request, f'Motnitoring Task scheduled successfully for {website.url}')
         except Exception as e:
-            raise e
+            # raise e
             messages.error(request, f'Task already exists for {website.url}')
     return redirect('dashboard')

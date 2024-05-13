@@ -1,339 +1,912 @@
-Pinging digipodium.com
-Pinging bbdu.ac.in
-Pinging digipodium.com
-Pinging digipodium.com
-Pinging digipodium.com
-Pinging bbdu.ac.in
-Pinging digipodium.com
-Pinging digipodium.com
-Pinging bbdu.ac.in
-Pinging digipodium.com
-Pinging digipodium.com
-Pinging bbdu.ac.in
-Pinging digipodium.com
-Pinging digipodium.com
-Pinging bbdu.ac.in
-Pinging digipodium.com
-Pinging digipodium.com
-Pinging bbdu.ac.in
-Pinging digipodium.com
-Pinging digipodium.com
-Pinging bbdu.ac.in
-Pinging digipodium.com
-Pinging digipodium.com
-Pinging bbdu.ac.in
-Pinging digipodium.com
-Pinging digipodium.com
-Pinging bbdu.ac.in
-Pinging digipodium.com
-url: https://digipodium.com
-latency: -1
-status_code: 200
-error: Could not ping the website
-timestamp: 2024-05-13 06:25:55
-Pinging digipodium.com
-url: https://digipodium.com
-latency: -1
-status_code: 200
-error: Could not ping the website
-timestamp: 2024-05-13 06:26:25
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08982729911804199
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.08528256416320801
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:26:31
-Pinging digipodium.com
-url: https://digipodium.com
-latency: -1
-status_code: 200
-error: Could not ping the website
-timestamp: 2024-05-13 06:26:55
-Pinging digipodium.com
-url: https://digipodium.com
-latency: -1
-status_code: 200
-error: Could not ping the website
-timestamp: 2024-05-13 06:27:25
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08924412727355957
+timestamp: 2024-05-13 10:21:22
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.10814404487609863
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:27:31
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08959555625915527
+timestamp: 2024-05-13 10:21:27
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.10767769813537598
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:28:31
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08913564682006836
+timestamp: 2024-05-13 10:22:07
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.14180588722229004
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:29:31
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08955836296081543
+timestamp: 2024-05-13 10:22:17
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.14362168312072754
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:30:31
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08848977088928223
+timestamp: 2024-05-13 10:22:52
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.20570850372314453
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:31:31
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08945035934448242
+timestamp: 2024-05-13 10:23:07
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.11411213874816895
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:32:31
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08949446678161621
+timestamp: 2024-05-13 10:23:37
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.17980742454528809
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:33:31
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08880043029785156
+timestamp: 2024-05-13 10:23:57
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.15810942649841309
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:34:31
-Pinging bbdu.ac.in
-url: https://bbdu.ac.in
-latency: 0.08921194076538086
+timestamp: 2024-05-13 10:24:22
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.14061546325683594
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:35:31
+timestamp: 2024-05-13 10:24:47
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08878636360168457
+latency: 0.1260511875152588
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:36:31
+timestamp: 2024-05-13 10:25:02
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.1110239028930664
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:25:07
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08868241310119629
+latency: 0.3763418197631836
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:37:31
+timestamp: 2024-05-13 10:25:12
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08857989311218262
+latency: 0.10930871963500977
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:38:31
+timestamp: 2024-05-13 10:25:22
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08862662315368652
+latency: 0.1338975429534912
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:39:31
+timestamp: 2024-05-13 10:25:32
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.22352027893066406
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:25:37
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08949017524719238
+latency: 0.16207313537597656
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:40:31
+timestamp: 2024-05-13 10:25:42
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.08135628700256348
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:25:52
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08954954147338867
+latency: 0.1608295440673828
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:41:31
+timestamp: 2024-05-13 10:25:54
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08891701698303223
+latency: 0.21917939186096191
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:42:31
+timestamp: 2024-05-13 10:26:02
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08930015563964844
+latency: 0.14852023124694824
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:43:31
+timestamp: 2024-05-13 10:26:12
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08995509147644043
+latency: 0.1566624641418457
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:44:31
+timestamp: 2024-05-13 10:26:22
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.18030977249145508
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:26:27
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.09004998207092285
+latency: 0.21728038787841797
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:45:31
+timestamp: 2024-05-13 10:26:32
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.11544156074523926
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:26:37
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08999967575073242
+latency: 0.14198589324951172
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:46:31
+timestamp: 2024-05-13 10:26:42
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08955717086791992
+latency: 0.17064738273620605
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:47:31
+timestamp: 2024-05-13 10:26:52
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08910155296325684
+latency: 0.1994950771331787
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:48:31
+timestamp: 2024-05-13 10:27:02
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08878302574157715
+latency: 0.21877431869506836
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:49:31
+timestamp: 2024-05-13 10:27:12
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.18753862380981445
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:27:17
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.17296862602233887
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:27:22
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08900022506713867
+latency: 0.1384296417236328
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:50:31
+timestamp: 2024-05-13 10:27:25
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08919596672058105
+latency: 0.17185711860656738
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:51:31
+timestamp: 2024-05-13 10:27:32
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.09000062942504883
+latency: 0.20324015617370605
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:52:31
+timestamp: 2024-05-13 10:27:42
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08900308609008789
+latency: 0.1958930492401123
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:53:31
+timestamp: 2024-05-13 10:27:52
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08860278129577637
+latency: 0.17091107368469238
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:54:31
+timestamp: 2024-05-13 10:28:02
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.12060117721557617
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:28:07
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.09204554557800293
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:28:09
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08903145790100098
+latency: 0.20519399642944336
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:55:31
+timestamp: 2024-05-13 10:28:12
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08927726745605469
+latency: 0.12649321556091309
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:56:31
+timestamp: 2024-05-13 10:28:22
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.0889577865600586
+latency: 0.15414762496948242
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:57:31
+timestamp: 2024-05-13 10:28:32
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08899903297424316
+latency: 0.15750956535339355
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:58:31
+timestamp: 2024-05-13 10:28:42
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.06623268127441406
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:28:52
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08800101280212402
+latency: 0.17494750022888184
 status_code: 200
 error: None
-timestamp: 2024-05-13 06:59:31
+timestamp: 2024-05-13 10:28:54
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.17325806617736816
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:28:57
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08963489532470703
+latency: 0.09695768356323242
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:00:31
+timestamp: 2024-05-13 10:29:02
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08812403678894043
+latency: 0.1735696792602539
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:01:31
+timestamp: 2024-05-13 10:29:12
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08906984329223633
+latency: 0.21949172019958496
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:02:31
+timestamp: 2024-05-13 10:29:22
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08899974822998047
+latency: 0.15099096298217773
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:03:31
+timestamp: 2024-05-13 10:29:32
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.06778144836425781
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:29:37
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08882761001586914
+latency: 0.18342018127441406
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:04:31
+timestamp: 2024-05-13 10:29:42
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.11121439933776855
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:29:47
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08841848373413086
+latency: 0.10890579223632812
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:05:31
+timestamp: 2024-05-13 10:29:52
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08900737762451172
+latency: 0.143510103225708
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:06:31
+timestamp: 2024-05-13 10:30:02
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08810663223266602
+latency: 0.0923013687133789
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:07:31
+timestamp: 2024-05-13 10:30:12
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.06937956809997559
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:30:22
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08980154991149902
+latency: 0.16134119033813477
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:08:31
+timestamp: 2024-05-13 10:30:24
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08855247497558594
+latency: 0.14061236381530762
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:09:31
+timestamp: 2024-05-13 10:30:32
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.11537384986877441
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:30:37
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08872842788696289
+latency: 0.16519665718078613
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:10:31
+timestamp: 2024-05-13 10:30:42
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08830094337463379
+latency: 0.19031119346618652
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:11:31
+timestamp: 2024-05-13 10:30:52
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.08849120140075684
+latency: 0.10553145408630371
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:12:31
+timestamp: 2024-05-13 10:31:02
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.046600341796875
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:31:07
 Pinging bbdu.ac.in
 url: https://bbdu.ac.in
-latency: 0.0893392562866211
+latency: 0.15482282638549805
 status_code: 200
 error: None
-timestamp: 2024-05-13 07:13:31
+timestamp: 2024-05-13 10:31:12
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.17340826988220215
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:31:22
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.1857302188873291
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:31:27
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09397172927856445
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:31:32
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.13541698455810547
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:31:42
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.07481956481933594
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:31:52
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.15205907821655273
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:31:54
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.20380783081054688
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:32:02
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.2397632598876953
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:32:12
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.1660938262939453
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:32:17
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09257340431213379
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:32:22
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.1952495574951172
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:32:32
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.047823429107666016
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:32:37
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.13437819480895996
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:32:42
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.12145829200744629
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:32:52
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.15858697891235352
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:33:02
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.11062836647033691
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:33:07
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09949302673339844
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:33:12
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.07639718055725098
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:33:22
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.13408112525939941
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:33:24
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09756875038146973
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:33:32
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.1724536418914795
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:33:42
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.0947420597076416
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:33:52
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.1961212158203125
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:33:57
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.2272193431854248
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:34:02
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.12499785423278809
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:34:07
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.1408100128173828
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:34:12
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.17214202880859375
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:34:23
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.17252421379089355
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:34:33
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.23565292358398438
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:34:43
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.15639686584472656
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:34:47
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.03130912780761719
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:34:52
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.10939717292785645
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:34:54
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.1722722053527832
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:35:03
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.2191779613494873
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:35:13
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.1252593994140625
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:35:23
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.15646839141845703
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:35:33
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.1093149185180664
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:35:37
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.06252121925354004
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:35:43
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09421348571777344
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:35:45
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.17216944694519043
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:35:53
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.14082837104797363
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:36:03
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.14078712463378906
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:36:13
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.1873950958251953
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:36:22
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.203291654586792
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:36:24
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.1719822883605957
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:36:27
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09375238418579102
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:36:33
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.13499021530151367
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:36:43
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09224677085876465
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:36:53
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.18210554122924805
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:37:03
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.11706733703613281
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:37:07
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.12664294242858887
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:37:13
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.25948452949523926
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:37:17
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.15379858016967773
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:37:23
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.16198515892028809
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:37:33
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.12029433250427246
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:37:43
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.0749044418334961
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:37:52
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.12757420539855957
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:37:54
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.10423445701599121
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:38:03
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.09639263153076172
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:38:07
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.19663143157958984
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:38:13
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.11768651008605957
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:38:23
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.1571977138519287
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:38:33
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.12319135665893555
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:38:37
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.18647193908691406
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:38:43
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.10719752311706543
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:38:53
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.20685696601867676
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:38:57
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.10227298736572266
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:39:03
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.0829923152923584
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:39:13
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.04994845390319824
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:39:24
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.08765625953674316
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:39:26
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.1559464931488037
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:39:33
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09367680549621582
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:39:43
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.17826581001281738
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:39:47
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.11656999588012695
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:39:53
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.2175581455230713
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:40:03
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.03841519355773926
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:40:07
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.18652057647705078
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:40:13
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.17826557159423828
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:40:23
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.20236802101135254
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:40:33
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.13749384880065918
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:40:37
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09048771858215332
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:40:43
+Pinging flipkart.com
+url: https://www.flipkart.com/
+latency: 0.0796976089477539
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:40:52
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.195725679397583
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:40:54
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.20363640785217285
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:41:03
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.10543036460876465
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:41:13
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.13835787773132324
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:41:23
+Pinging shopify.in
+url: https://www.shopify.in
+latency: 0.10925960540771484
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:41:27
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.0949394702911377
+status_code: 200
+error: None
+timestamp: 2024-05-13 10:41:33
