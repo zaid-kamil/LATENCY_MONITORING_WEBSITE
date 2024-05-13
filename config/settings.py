@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'accounts',
     "crispy_forms",
     "crispy_bootstrap5",
+    "django_celery_beat",
+    "django_celery_results",
 ]
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
@@ -141,9 +143,10 @@ MEDIA_ROOT = BASE_DIR.joinpath('media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # celery configuration
-CELERY_BROKER_URL = 'redis://localhost:6379/0'
-
-# celery timezone
+CELERY_BROKER_URL = "redis://127.0.0.1:6379/"
+CELERY_RESULT_BACKEND = "django-db"
+CELERY_RESULT_EXTENDED = True
+CELERY_IMPORTS = ('monitoring.tasks',)
 CELERY_TIMEZONE = 'Asia/Kolkata'
 
 

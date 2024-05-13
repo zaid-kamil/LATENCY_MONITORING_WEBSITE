@@ -16,4 +16,5 @@ urlpatterns = [
     path('contact/', views.contact_view, name='contact'),
     path('subscriber/', views.subscriber_view, name='subscriber'), # new subscribe url
     path('run/task/', views.run_task, name='run_task'), # new run task url
+    path('schedule/task/', views.schedule_website_monitor, name='schedule_task'), # new schedule task url
     ]

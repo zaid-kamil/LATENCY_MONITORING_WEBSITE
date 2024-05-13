@@ -19,25 +19,32 @@ def check_website_status(url):
         print(f'Error: {e}')
         return None
 
+def logger(results):
+    with open('monitoring.log', 'a') as f:
+        f.write(f"{results}\n")
+
 def ping_website(url, timeout=4):
     domain = sanitize_url(url)
+    logger(f'Pinging {domain}')
     results = {
         'url': url,
-        'ping_time': None,
-        'status_code': None,
+        'latency': -1,
+        'status_code': 404,
         'error': None,
         'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     }
     try:
-        ping_time = ping(domain, timeout=timeout)
+        latency = ping(domain, timeout=timeout)
         status_code = check_website_status(url)
-        if ping_time is not None:
-            results['ping_time'] = ping_time
+        if latency is not None:
+            results['latency'] = latency
         else:
             results['error'] = 'Could not ping the website'
         if status_code:
             print(f'The status code for {url} is {status_code}')
             results['status_code'] = status_code
+        for key, value in results.items():
+            logger(f'{key}: {value}')
         return results
     except Exception as e:
         print(f'Error: {e}')

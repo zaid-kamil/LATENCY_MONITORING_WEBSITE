@@ -18,7 +18,7 @@ class WebsiteForm(forms.ModelForm):
         model = Website
         fields =[ 'url', 'check_frequency'] 
 
-class Measurement:
+class MeasurementForm(forms.ModelForm):
     class Meta:
         model = Measurement
         fields = '__all__'

@@ -1,2 +1,6 @@
 django
 mysqlclient
+django-celery-beat
+django-celery-results
+ping3
+redis

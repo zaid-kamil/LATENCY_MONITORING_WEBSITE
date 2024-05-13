@@ -2,14 +2,32 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-  <div class="container">
-    <h1>Website Monitoring</h1>
-    <p>Here are the websites currently being monitored:</p>
-      <form method="post">
-        {% csrf_token %}
-        {{ form|crispy }}
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
+      <img src="/static/img/hero-img.png" alt="">
     </div>
+    <div class="col-md-6 d-flex justify-content-center align-items-center">
+      <div class="card bg-transparent border-0">
+        <div class="card-body">
+          <h3 class="mt-5 mb-3">
+            Add Website for monitoring
+          </h3>
+          <p class="alert alert-info">
+            Latency monitor will schedule a task to check the latency of the website at the specified frequency period.
+            Keeping track of the website health is important for the business.
+          </p>
+          <form method="post">
+            {% csrf_token %}
+            {{ form|crispy }}
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-plus fa-fw"></i> Add Website
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
 {% endblock %}
