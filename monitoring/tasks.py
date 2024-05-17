@@ -23,12 +23,13 @@ def check_status(*args):
                     error=results['error'])
     
     m.save()
-    if results['status_code'] != 200:
-        n = Notification(website=website, message=f'Website is down with status code {results[2]}')
+    if results['status_code'] != 200 or results['error']:
+        print(results)
+        n = Notification(website=website, message=f'Website is down with status code, {results["status_code"]}')
         n.save()
         send_mail(
             'Website Down',
-            f'Your website {url} is down with status code {results[2]}',
+            f'Your website {url} is down with status code {results["status_code"]}',
             settings.EMAIL_HOST_USER,
             [user.email],
             fail_silently=False

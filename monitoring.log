@@ -910,3 +910,424 @@ latency: 0.0949394702911377
 status_code: 200
 error: None
 timestamp: 2024-05-13 10:41:33
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.1332247257232666
+status_code: 200
+error: None
+timestamp: 2024-05-17 18:56:31
+Pinging digipodium.com
+url: http://www.digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 18:57:11
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.11692953109741211
+status_code: 200
+error: None
+timestamp: 2024-05-17 18:57:31
+Pinging digipodium.com
+url: http://www.digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 18:57:41
+Pinging digipodium.com
+url: http://www.digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 18:58:11
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.13663578033447266
+status_code: 200
+error: None
+timestamp: 2024-05-17 18:58:31
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 18:58:32
+Pinging digipodium.com
+url: http://www.digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 18:58:41
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 18:59:01
+Pinging digipodium.com
+url: http://www.digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 18:59:11
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.1515331268310547
+status_code: 200
+error: None
+timestamp: 2024-05-17 18:59:31
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 18:59:32
+Pinging digipodium.com
+url: http://www.digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 18:59:41
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:00:01
+Pinging digipodium.com
+url: http://www.digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:00:11
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.0915079116821289
+status_code: 200
+error: None
+timestamp: 2024-05-17 19:00:31
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:00:32
+Pinging digipodium.com
+url: http://www.digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:00:41
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:01:01
+Pinging digipodium.com
+url: http://www.digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:01:11
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.0939798355102539
+status_code: 200
+error: None
+timestamp: 2024-05-17 19:01:31
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:01:32
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:02:01
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:02:31
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:03:01
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:03:31
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:04:01
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:04:31
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:05:01
+Pinging ign.com
+url: https://ign.com
+latency: 0.01836395263671875
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:05:21
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:05:38
+Pinging ign.com
+url: https://ign.com
+latency: 0.017607450485229492
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:05:42
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:06:02
+Pinging ign.com
+url: https://ign.com
+latency: 0.018083572387695312
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:06:06
+Pinging ign.com
+url: https://ign.com
+latency: 0.01804065704345703
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:06:25
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:06:44
+Pinging ign.com
+url: https://ign.com
+latency: 0.01803302764892578
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:06:49
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:07:08
+Pinging ign.com
+url: https://ign.com
+latency: 0.017411231994628906
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:07:12
+Pinging ign.com
+url: https://ign.com
+latency: 0.017651081085205078
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:07:29
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:07:48
+Pinging ign.com
+url: https://ign.com
+latency: 0.017922163009643555
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:07:53
+Pinging ign.com
+url: https://ign.com
+latency: 0.017653226852416992
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:08:15
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:08:35
+Pinging ign.com
+url: https://ign.com
+latency: 0.019145727157592773
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:08:39
+Pinging ign.com
+url: https://ign.com
+latency: 0.01678776741027832
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:08:57
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:09:14
+Pinging ign.com
+url: https://ign.com
+latency: 0.017596006393432617
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:09:19
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:09:36
+Pinging ign.com
+url: https://ign.com
+latency: 0.018152952194213867
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:09:40
+Pinging ign.com
+url: https://ign.com
+latency: 0.018613576889038086
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:10:38
+Pinging ign.com
+url: https://ign.com
+latency: 0.0175631046295166
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:10:55
+Pinging bbdu.ac.in
+url: https://bbdu.ac.in
+latency: 0.09468531608581543
+status_code: 200
+error: None
+timestamp: 2024-05-17 19:11:14
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:11:15
+Pinging ign.com
+url: https://ign.com
+latency: 0.01902031898498535
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:11:19
+Pinging ign.com
+url: https://ign.com
+latency: 0.01825094223022461
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:11:41
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:12:01
+Pinging ign.com
+url: https://ign.com
+latency: 0.017641067504882812
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:12:07
+Pinging ign.com
+url: https://ign.com
+latency: 0.09537172317504883
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:12:26
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:12:47
+Pinging ign.com
+url: https://ign.com
+latency: 0.09027671813964844
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:12:52
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:13:11
+Pinging ign.com
+url: https://ign.com
+latency: 0.0204620361328125
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:13:17
+Pinging ign.com
+url: https://ign.com
+latency: 0.08521771430969238
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:13:38
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:13:56
+Pinging ign.com
+url: https://ign.com
+latency: 0.018180131912231445
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:14:01
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:14:22
+Pinging ign.com
+url: https://ign.com
+latency: 0.016612768173217773
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:14:27
+Pinging ign.com
+url: https://ign.com
+latency: 0.029741764068603516
+status_code: 403
+error: None
+timestamp: 2024-05-17 19:14:46
+Pinging digipodium.com
+url: http://digipodium.com
+latency: -1
+status_code: 200
+error: Could not ping the website
+timestamp: 2024-05-17 19:15:04
+Pinging ign.com
