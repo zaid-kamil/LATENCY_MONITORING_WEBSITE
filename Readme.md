@@ -1,6 +1,3 @@
-Based on the contents of `views.py` and `urls.py`, here's a suggested structure for a `README.md` file:
-
-```markdown
 # Latency Monitoring Website
 
 This project is a Django-based web application that allows users to monitor the latency and availability of websites. It features a dashboard for managing websites, viewing monitoring data, and scheduling tasks.
